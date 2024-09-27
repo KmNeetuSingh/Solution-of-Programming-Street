@@ -1,9 +1,9 @@
 i = [1, 500]
-arm = []
+armStrong= []
 for num in range(i[0], i[1] + 1):
     s = str(num)
     power = len(s)  
-    total_sum = sum(int(digit) ** power for digit in s)  # we are using the built in function sum() ot add up all the value
+    total_sum = sum(int(digit) ** power for digit in s)  
     if total_sum == num:
-        arm.append(num)  
-print(arm)
+        armStrong.append(num)  
+print(armStrong)
