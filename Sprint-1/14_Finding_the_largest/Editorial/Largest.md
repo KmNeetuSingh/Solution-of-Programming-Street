@@ -1,4 +1,3 @@
-Here’s the updated `README.md` file with the alternative approach added:
 # Finding the Largest and Smallest Numbers in an Array  
 ## Difficulty: Easy
 
