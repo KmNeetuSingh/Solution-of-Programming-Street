@@ -1,10 +1,10 @@
-arr = [1,2,4,5,7,8,9]
-largest= arr[0]
-smallest= arr[0]
-for num in arr :
-    if num > largest:
-        largest = num 
+a = [1,3,23,4,54]
+largest = a[0]
+smallest = a[0]
+for num in a :
+    if num >largest:
+        largest=num 
     if num < smallest:
-        smallest= num
-print("largest:",largest)
-print("smallest:",smallest)
+        smallest=num
+print("largest",largest)
+print("smallest",smallest)
