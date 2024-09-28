@@ -10,5 +10,5 @@ def armStrong(number):
         return "Not an Armstrong Number"
 
 # Example Usage...
-number = 123  # Static example
+number = 123
 print(armStrong(number))
