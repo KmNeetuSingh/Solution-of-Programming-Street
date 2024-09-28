@@ -1,4 +1,4 @@
-number = 151
+number = 15
 r = str(number)
 s= 0  
 for digit in r:
