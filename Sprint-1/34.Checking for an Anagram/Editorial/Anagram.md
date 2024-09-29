@@ -37,7 +37,7 @@ def anagrams(str1, str2):
 ```
 
 ### Example
-For `string1 = "listen"` and `string2 = "silent"`:
+For `str1 = "listen"` and `str2 = "silent"`:
 - Lengths are equal.
 - Count the characters in "listen": `l=1, i=1, s=1, t=1, e=1, n=1`.
 - Decrement counts with characters from "silent": `l=0, i=0, s=0, t=0, e=0, n=0`.
