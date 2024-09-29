@@ -3,9 +3,6 @@ def check_even_odd(number):
         return "Even"
     else:
         return "Odd"
-
-# Example usage:
-if __name__ == "__main__":
-    number = 4
-    print(check_even_odd(number))
+number = 4
+print(check_even_odd(number))
     
