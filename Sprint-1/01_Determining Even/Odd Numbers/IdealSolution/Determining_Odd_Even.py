@@ -1,8 +1,7 @@
-def check_even_odd(number):
-    if number % 2 == 0:
-        return "Even"
+def CheckEvenOdd(num):
+    if num %2 == 0:
+        print("Even")
     else:
-        return "Odd"
-number = 4
-print(check_even_odd(number))
-    
+        print("Odd")
+#Example 
+CheckEvenOdd(1)

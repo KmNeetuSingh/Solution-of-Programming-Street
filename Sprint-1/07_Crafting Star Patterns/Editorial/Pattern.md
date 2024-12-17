@@ -1,7 +1,3 @@
-Here's an editorial-style solution for the star pattern problem, formatted according to your preferences:
-
----
-
 **Crafting Star Patterns**  
 **Difficulty**: Easy  
 **Topics**: Basic Programming, Patterns  

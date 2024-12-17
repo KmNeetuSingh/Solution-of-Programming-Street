@@ -33,7 +33,7 @@ If the sum is equal to the original number, then it is an Armstrong number.
 ```python
 def isArmstrongNumber(number):
     # Convert the number to a string to easily iterate through digits
-    num_str = str(number)
+    num_str = str(number)''/                                       bn bb bb;/p/p[;/p]
     # Calculate the number of digits
     num_digits = len(num_str)
     # Calculate the sum of digits each raised to the power of num_digits
@@ -63,7 +63,8 @@ Armstrong Number
 
 ### Space Complexity
 
-`O(d)` - The space complexity is linear due to the space required to store the string representation of the number and to perform the calculations.
+`O(d)` - The space complexity is linear due to the space required to store the string representation of the number and to perform the calcula
+tions.
 
 ### Alternative Solution
 

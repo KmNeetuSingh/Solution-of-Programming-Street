@@ -1,14 +1,11 @@
-def armStrong(number):
-    num_str = str(number)
-    num_digits = len(num_str)  
-    sum = 0  
-    for digit in num_str:
-        sum += int(digit) ** num_digits
-    if sum == number:
+def checkArmstrong(N):
+    S = str(N)
+    D = len(S)
+    Arms = 0
+    for i in S :
+        Arms += int(i) ** D
+    if Arms == N:
         return "Armstrong Number"
-    else:
-        return "Not an Armstrong Number"
-
-# Example Usage...
-number = 123
-print(armStrong(number))
+    else :
+        return"Not a Armstrong Number"
+print(checkArmstrong(153))

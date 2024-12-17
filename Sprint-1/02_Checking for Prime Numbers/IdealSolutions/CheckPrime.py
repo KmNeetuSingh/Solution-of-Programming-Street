@@ -1,10 +1,11 @@
-def identifyPrime(n):
-    a = "Prime"
-    for i in range(2, n):
-        if n != 2 and n % i == 0:
-            a = "Not a Prime"
-            break
+def idenitfy_prime_numbers(Num):
+    a = "Prime number"
+    for i in range (2, Num):
+          if Num !=2 and Num % i == 0 :
+               a = "Not a Prime Numbers"
+               break
     print(a)
 
-# Example usage:
-identifyPrime(4)  
+    #Example usage...
+idenitfy_prime_numbers(2)
+idenitfy_prime_numbers(6)
